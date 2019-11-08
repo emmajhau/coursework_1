@@ -19,9 +19,9 @@ class Dec2Hex
                 System.exit(1);
             }
         }
-		else if (args = " ")
+		else if (args = " ", "0")
 		{
-			System.err.println("Must inclue input.");
+			System.err.println("Must include integer input.");
 		}
 		
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
