@@ -19,7 +19,7 @@ class Dec2Hex
                 System.exit(1);
             }
         }
-		else if (args = " ")
+	else if (args == null)
 		{
 			System.err.println("Must include integer input.");
 		}
